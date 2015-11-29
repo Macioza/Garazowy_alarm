@@ -1,0 +1,20 @@
+from ubidots import ApiClient
+import random
+import time
+
+define main():
+	api = ApiClient("92c3631d495bfff93d3d3cf043772d46003d9e5b")
+	test_variable = api.get_variable("565b6ef5762542203c6a4610")
+
+#Here is where you usually put the code to capture the data, either through your GPIO pins or as a calculation. We'll simply put a random value here:
+
+	while True:
+		test_value = random.randint(1,100)
+
+#Write the value to your variable in Ubidots
+
+		test_variable.save_value({'value':test_value})
+		time.sleep(10)
+
+try main()
+except main()
