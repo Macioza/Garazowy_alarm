@@ -14,3 +14,5 @@ def main():
 			time.sleep(40)
 			test_variable.save_value({'value':test_value})
 		time.sleep(10)
+		
+main()
