@@ -14,7 +14,13 @@ def main():
 		except:
 			print "error"
 			time.sleep(40)
-			print "one more time..."
+			print "one more time"
+			test_variable.save_value({'value':test_value})
+			
+		except:
+			print "error #2"
+			time.sleep(30)
+			print "fool me twice"
 			test_variable.save_value({'value':test_value})
 		time.sleep(1)
 		
