@@ -19,8 +19,4 @@ def main():
 			
 		time.sleep(1)
 		
-try:
-	main()
-except:
-	time.sleep(10)
-	main()
+main()
