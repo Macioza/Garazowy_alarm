@@ -11,8 +11,9 @@ def main():
 		try:
 			test_variable.save_value({'value':test_value})
 			licznik = 0
-			print "success nr %n" %licznik
+			print "success"
 			licznik = licznik+1
+			print (licznik)
 		except:
 			print "error"
 			time.sleep(40)
