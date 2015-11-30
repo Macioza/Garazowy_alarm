@@ -3,7 +3,7 @@ import random
 import time
 
 api = ApiClient("92c3631d495bfff93d3d3cf043772d46003d9e5b")
-test_variable = api.get_variable("565b6ef5762542203c6a4610")
+test_variable = api.get_variable("565c48007625425dd74d15c7")
 
 def main():
 	licznik = 0
