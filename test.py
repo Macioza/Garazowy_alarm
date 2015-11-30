@@ -24,4 +24,8 @@ def main():
 			test_variable.save_value({'value':test_value})
 		time.sleep(1)
 		
-main()
+try:
+	main()
+except:
+	time.sleep(10)
+	main()
