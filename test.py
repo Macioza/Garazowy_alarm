@@ -11,8 +11,10 @@ def main():
 		try:
 			test_variable.save_value({'value':test_value})
 		except:
+			print "error"
 			time.sleep(40)
+			print "one more time..."
 			test_variable.save_value({'value':test_value})
-		time.sleep(10)
+		time.sleep(1)
 		
 main()
