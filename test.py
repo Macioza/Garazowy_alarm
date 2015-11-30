@@ -10,6 +10,7 @@ def main():
 		test_value = random.randint(1,100)
 		try:
 			test_variable.save_value({'value':test_value})
+			print "success"
 		except:
 			print "error"
 			time.sleep(40)
