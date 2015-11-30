@@ -11,9 +11,8 @@ def main():
 		test_value = random.randint(1,100)
 		try:
 			test_variable.save_value({'value':test_value})
-			print "success"
 			licznik = licznik + 1
-			print (licznik)
+			print "success nr %s" %licznik
 		except:
 			print "error"
 			time.sleep(40)
