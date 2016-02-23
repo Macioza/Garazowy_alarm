@@ -26,6 +26,7 @@ while True:
 	
 	if io.input(wyl_pin):
 		io.output(przek_pin, io.LOW)
+		
 
 
 	
